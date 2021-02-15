@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Validador</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Economica&display=swap" rel="stylesheet">
+
+  <div id="header">
+    <h1 id="header1">Validador de tarjetas para empresas hoteleras</h1>
+    <img src="./images/header.png" id="headerIcon">
+  </div>
+
+  <div id="mainPageText">
+    <main>Para validar la tarjeta de credito ingresa los siguientes datos:</main>
+  </div>
+
+  <div id="inputBox">
+    
+    <p1>Numero de tarjeta de credito</p1>
+    <input type="text" id="numberTC" placeholder="1234-5678-9123-1237" maxlength="16" required>
+    
+    <p2>Nombre y apellido</p2>  
+    <input type="text" id="guestName">
+
+     <p3>Fecha de vencimiento</p3> 
+    <input type="month" id="expiration">
+
+    <p4>CVV</p4>
+    <input type="number" id="cvv">
+
+
+    <input type="submit" value="validar" id="validarTC">
+  </div>
+
+  <script src="index.js" type="module"></script>
+
+</body>
+
 </html>
