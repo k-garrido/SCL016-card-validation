@@ -12,7 +12,9 @@ bttnValidar.addEventListener ("click", () => {
         alert ("Tarjeta " + masquify + " valida " );    
     }
     else {
-        alert ("Tarjeta invalida " + masquify);
+        alert ("Tarjeta " + masquify + " invalida ");
     }
 
 });
+
+document.getElementById("numberTC").value; 
