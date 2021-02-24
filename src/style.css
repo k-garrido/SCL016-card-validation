@@ -38,9 +38,44 @@ body{
     position: relative;
     left: 550px;
     top: 20px;
+}
+
+#validarTC {
+    position: relative;
+    top: 6%;
+    font-family:monospace;
+}
+
+#validarTC:hover {
+    background-color: rgb(106, 209, 106);
+    stroke: black;
+}
+
+#copyBttn {
+    width: 100px;
+    height: 35px;
+    border-radius: 5%;
+    position: absolute;
+    left: 65%;
+    top: 73%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
     
-    
-    
-    
+#footer {
+    background-color: #757ECF;
+    font-family:'Economica', sans-serif;
+    font-size: 20px;
+    text-align: center;   
+    margin-top: 76px;
+    padding: 5px;
 
 }
+   
+#hiddenInput {
+    opacity: 0%;
+    height: 1px;
+    width: 1px;
+    position: absolute;
+}
+    

@@ -23,7 +23,7 @@
   <div id="inputBox">
     
     <p1>Numero de tarjeta de credito</p1>
-    <input type="text" id="numberTC" placeholder="1234-5678-9123-1237" maxlength="16" required>
+    <input type="number" id="numberTC" placeholder="1234-5678-9123-1237" maxlength="16" required>
     
     <p2>Nombre y apellido</p2>  
     <input type="text" id="guestName">
@@ -31,12 +31,23 @@
      <p3>Fecha de vencimiento</p3> 
     <input type="month" id="expiration">
 
-    <p4>CVV</p4>
-    <input type="number" id="cvv">
+    <p4>CVC</p4>
+    <input type="number" id="cvc">
 
 
-    <input type="submit" value="validar" id="validarTC">
+    <input type="submit" value="Validar" id="validarTC">
   </div>
+
+  <div><input type="text" id="hiddenInput">
+  </div>
+  
+  <div id="copyBttnBox">
+  <button id="copyBttn">Copiar datos</button>
+  </div>
+
+  <footer id="footer">
+    <p>Desarrollado por Katherinne Garrido L. - Laboratoria SCL016 </p>
+  </footer>
 
   <script src="index.js" type="module"></script>
 
