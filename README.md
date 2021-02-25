@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>"Card Validation"</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -14,6 +13,7 @@
     <p>
       Hoy en día cuando un extranjero realiza una reserva en algún establecimiento de alojamiento generalmente se solicita una tarjeta de crédito como garantía para asegurar la reserva del huésped. Esta página facilita la tarea de los recepcionistas al querer validar aquella tarjeta de crédito. 
     </p>
+    <img src="./imagesReadMe/Proyecto.PNG">
     <h2>Investigación UX</h2>
     <h3>Publico Objetivo</h3>
     <p>Este proyecto está destinado a aquellas personas que trabajan dentro de la recepción de un hotel, pueden ser recepcionistas, ejecutivos de reserva, botones, supervisores, gerente de hotel, entre otros.</p>
