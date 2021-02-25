@@ -20,10 +20,11 @@
     <h3>Problema/Solución</h3>
     <p>Hoy en día ya existe dentro de los hoteles una forma de validar si la tarjeta de créditos es válida o no, y es a través de Transbank, sin embargo, lo que se hace al realizar esta operación con el POS de Transbank es un check-in a la tarjeta de crédito del cliente, este proceso hace que se separe el monto total de la reserva del cupo de su tarjeta, y este monto no puede ser utilizado hasta después de 48 horas o más. Este proceso genera un montón de reclamos de parte de los clientes ya que no pueden utilizar ese monto por muchísimo tiempo, entonces esta página es una excelente solución a ese problema, ya que por un lado mejorará los tiempos de demora por check-in y además no se tendrá que tomar ficticiamente el dinero de los huéspedes por lo que no habrá más reclamos por ese tema.</p>
     <h3>Prototipo en papel</h3>
+    <img src="./imagesReadMe/Sketch.jpg">
     <h3>Feedback</h3>
     <p>En los momentos que recibí feedback me decían que mi página estaba bien diseñada para cumplir con su propósito. Con el transcurso del tiempo decidí agregar nuevos inputs donde se solicitará los otros datos de la tarjeta como el nombre del titular, la fecha de vencimiento y el CVC, además agregué botón que permitiera copiar esta información ya que usualmente esta información la guardan en otro archivo o programa.</p>
     <h3>Imagen del prototipo final </h3>
-
+    <img src="./imagesReadMe/figma.PNG">
   </main>
     
   </body>
